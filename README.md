@@ -44,7 +44,7 @@
 
 - [ Guía de Instalación de Angular](angular-notes.md)
 
-- [ Metodologías Ágiles](scrum-kanban.md)
+- [ Metodologías Ágiles](scrum-kanban-notes.md)
 
 
 
