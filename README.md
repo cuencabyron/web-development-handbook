@@ -11,11 +11,11 @@
 
 - [ Códigos de Estado HTTP](http-status-codes-notes.md)
     - [¿Qué son?](http-status-codes-notes.md#qué-son)
-    - [1xx - Informativos](http-status-codes-notes.md#1xx-informativos) 
-    - [2xx - Éxito](http-status-codes-notes.md#2xx-éxito)
-    - [3xx - Redirecciones](http-status-codes-notes.md#3xx-redirecciones)
-    - [4xx - Errores del cliente](http-status-codes-notes.md#4xx-errores-del-cliente)
-    - [5xx - Errores del servidor](http-status-codes-notes.md#5xx-errores-del-servidor)
+    - [1xx - Informativos](http-status-codes-notes.md#1xx---informativos) 
+    - [2xx - Éxito](http-status-codes-notes.md#2xx---éxito)
+    - [3xx - Redirecciones](http-status-codes-notes.md#3xx---redirecciones)
+    - [4xx - Errores del cliente](http-status-codes-notes.md#4xx---errores-del-cliente)
+    - [5xx - Errores del servidor](http-status-codes-notes.md#5xx---errores-del-servidor)
 
 - [ Modelo Cliente - Servidor](client-server-model-notes.md)
   - [¿Qué es?](client-server-model-notes.md#qué-es)
