@@ -120,3 +120,10 @@ El ticket es como un *"papelito"* o *"nota digital"* que representa esa tarea es
 ## Diferencia clave:
 - **SCRUM:** Trabaja en *bloques de tiempo (sprints)* → ideal para proyectos ccon entregas incrementales.
 - **KANBAN:** Trabaja en *flujo continuo* → ideal para soporte, mantenimiento o entornos cambiantes.
+
+---
+
+## Demostración de SCRUM y KANBAN
+<div align="center">
+  <img src="imgs/scrum-kanban.png" width="600" alt="Demostración de SCRUM y KANBAN"/>
+</div>
