@@ -21,7 +21,7 @@
   - [¿Qué es?](client-server-model-notes.md#qué-es)
   - [Características Principales](client-server-model-notes.md#características-principales)
   - [Componentes](client-server-model-notes.md#componentes)
-  - [¿Cómo Funciona?](client-server-model-notes.md#cómo-funcionaf)
+  - [¿Cómo Funciona?](client-server-model-notes.md#cómo-funciona)
   - [Tipos de Servidores](client-server-model-notes.md#tipos-de-servidores)
   - [Ventajas](client-server-model-notes.md#ventajas)
   - [Desventajas](client-server-model-notes.md#desventajas)
