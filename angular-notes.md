@@ -68,7 +68,7 @@ Node.js oficial + NVM al mismo tiempo = choques y confusión.
 
 ---
 
-## ¿CÓMO INSTALAR ANGULAR EN WINDOWS?
+## ¿CÓMO INSTALAR ANGULAR PARA WINDOWS?
 1. **Verifica que tienes *Node.js* y *npm* en la terminal (CMD, POWERSHELL o la de VS Code), escribe:** 
     - ***node -v***
     - ***npm -v***
@@ -85,7 +85,7 @@ Node.js oficial + NVM al mismo tiempo = choques y confusión.
 
 ---
 
-## ¿CÓMO CREAR UN PROYECTO DESDE CERO EN ANGULAR EN WINDOWS?
+## ¿CÓMO CREAR UN PROYECTO DESDE CERO EN ANGULAR PARA WINDOWS?
 1. **Crear un nuevo proyecto**
     - **Ve a la carpeta donde quieras tu proyecto, por ejemplo:**
         - cd C:\Users\Dell\Documents
@@ -111,7 +111,7 @@ Node.js oficial + NVM al mismo tiempo = choques y confusión.
 
 ---
 
-## ¿CÓMO ELIMINAR UN PROYECTO EN ANGULAR EN WINDOWS?
+## ¿CÓMO ELIMINAR UN PROYECTO EN ANGULAR PARA WINDOWS?
 1. **Sal de la carpeta del proyecto en la terminal:**
    - ***cd..***
    (esto te regresara a la carpeta superior)

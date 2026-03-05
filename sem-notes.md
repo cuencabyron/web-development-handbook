@@ -7,7 +7,7 @@ SEM significa *Search Engine Marketing* (Marketing en Motores de Búsqueda). Es 
 
 ---
 
-## Tiempo de campañas SEM:
+## Tipos de campañas SEM:
 - **Búsqueda:** Anuncios que aparecen en Google cuando alguien busca tu palabra clave.
 - **Display:** Banners en sitios web asociados a Google.
 - **Shopping:** Anuncios de productos con imagen y precio.
