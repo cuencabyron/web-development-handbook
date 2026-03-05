@@ -50,13 +50,14 @@ Un cliente manda un correo diciendo **"No puedo entrar a mi cuenta"**.
 El ticket es como un *"papelito"* o *"nota digital"* que representa esa tarea específica que viaja por el tablero hasta terminarse.
 
 **Ticket #21 - Error al inicar sesión**
-**Título:** Cliente no puede iniciar sesión en su cuenta.
-**Descripción:** El cliente reporta que al ingresar su correo y contraseña aparece el mensaje *"usuario no encontrado"*, aunque la cuenta existe en la base de datos.
-**Prioridad:** 🔴 Alta
-**Estado Actual:** To Do
-**Asignado a:** Juan Pérez (Desarrollador Backend)
-**Fecha de Creación:** 10/03/2026
-**Fecha Límite:** 12/03/2026
+
+- **Título:** Cliente no puede iniciar sesión en su cuenta.
+- **Descripción:** El cliente reporta que al ingresar su correo y contraseña aparece el mensaje *"usuario no encontrado"*, aunque la cuenta existe en la base de datos.
+- **Prioridad:** 🔴 Alta
+- **Estado Actual:** To Do
+- **Asignado a:** Juan Pérez (Desarrollador Backend)
+- **Fecha de Creación:** 10/03/2026
+- **Fecha Límite:** 12/03/2026
 
 **Checklist dentro del ticket:**
 - [  ] Revisar logs de autenticación.
