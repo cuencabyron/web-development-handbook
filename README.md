@@ -26,6 +26,7 @@
   - [Desventajas](client-server-model-notes.md#desventajas)
   - [Ejemplos en la vida diaria](client-server-model-notes.md#ejemplos-en-la-vida-diaria)
   - [Diagrama del funcionamiento del modelo cliente-servidor](client-server-model-notes.md#diagrama-del-funcionamiento-del-modelo-cliente-servidor)
+  - [Explicación del diagrama](client-server-model-notes.md#explicación-del-diagrama)
   - [En resumen](client-server-model-notes.md#en-resumen)
 
 - [🔐 Cross-Origin Resource Sharing (CORS)](cors-notes.md)
@@ -81,3 +82,5 @@
   - [¿Cómo crear un proyecto desde cero en Angular para Windows?](angular-notes.md#cómo-crear-un-proyecto-desde-cero-en-angular-para-windows)
   - [¿Cómo eliminar un proyecto en Angular para Windows?](angular-notes.md#cómo-eliminar-un-proyecto-en-angular-en-windows)
   - [Comandos básicos de *npm*](angular-notes.md#comandos-básicos-de-npm)
+
+- [🤖 robots.txt](robots.txt-notes.md)

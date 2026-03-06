@@ -82,5 +82,27 @@ Es como un restaurante: el **cliente** es quien pide la comida, y el **servidor*
 
 ---
 
+## Explicación del diagrama
+1. **Cliente(laptop)**
+    - Representado por una computadora portatil.
+    - Es quien *inicia la comunicación* enviando una *solicitud*.
+    - Ejemplo: tu navegador cuando escribes *www.google.com*.
+2. **Solicitud (flecha hacia el servidor)**
+    - El cliente pide un recurso o servicio al servidor.
+    - Ejemplo: El navegador solicita la página principal de Google.
+3. **Servidor**
+    - Recibe la *solicitud*, la procesa y prepara la *respuesta*.
+    - Ejemplo: El servidor de Google busca y arma la página de inicio para enviarla de vuelta.
+4. **Red (línea con doble flecha)**
+    - Es el medio de comunicación entre cliente y servidor (Internet, WI-FI, LAN).
+    - Todos los datos viajan por esta red en ambas direcciones.
+5. **Flujo completo**
+    1. El *cliente envía solicitud*.
+    2. El *servidor procesa* la petición.
+    3. El *servidor responde* (información archivo, página web, etc).
+    4. El *cliente recibe la respuesta* y la muestra al usuario.
+
+---
+
 ## En resumen
 El cliente **pide**, el servidor **responde**, y la red es el canal por donde viaja la información en ambas direcciones.  
