@@ -39,7 +39,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -112,7 +112,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -175,7 +175,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -235,7 +235,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -292,7 +292,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -350,7 +350,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -417,7 +417,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
@@ -472,7 +472,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -535,7 +535,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -599,7 +599,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -664,7 +664,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -726,7 +726,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -787,7 +787,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -848,7 +848,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -910,7 +910,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -980,7 +980,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -1049,7 +1049,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -1124,7 +1124,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -1198,7 +1198,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -1278,7 +1278,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -1353,7 +1353,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
@@ -1440,7 +1440,7 @@ FinAlgoritmo
 <details>
 <summary>C++</summary>
 
-```
+```c++
 #include<iostream>
 #include<windows.h>
 #include<stdlib.h>
