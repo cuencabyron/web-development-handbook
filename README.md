@@ -7,7 +7,7 @@
 
 - [📖 Preguntas para Entrevista Junior (Versión ANGULAR)](interview-questions-(angular-version).md)
 
-- [ Ejercicios básicos en programación](basic-exercises.md)
+- [Mis extensiones para Visual Studio Code](my-extensions-for-vscode.md)
 
 - [🌐 Métodos de Petición HTTP](http-methods-notes.md)
     - [¿Qué son?](http-methods-notes.md#qué-son)
@@ -92,5 +92,3 @@
 - [ Node.js](node.js-notes.md)
 
 - [🤖 robots.txt](robots.txt-notes.md)
-
-- [Mis extensiones para Visual Studio Code](my-extensions-for-vscode.md)
