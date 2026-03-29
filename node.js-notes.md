@@ -1,42 +1,51 @@
-¿Qué es Node.js?
-Node.js es un entorno de ejecución de JavaScript que te permite usar este lenguaje fuera del navegador, por ejemplo en tu computadora o en un servidor.
+<h1 align="center">Node.js</h1>
 
-Antes, JavaScript solo se ejecutaba dentro de un navegador web (como Chrome o Firefox).
+---
+
+## ¿Qué es?
+Es un **entorno de ejecución de JavaScript** que te permite usar este lenguaje **fuera del navegador,** por ejemplo en tu computadora o en un servidor.
+
+Antes, **JavaScript solo se ejecutaba dentro de un navegador web** (como Chrome o Firefox).
 Con Node.js, ahora puedes usar JavaScript para crear:
 
-Servidores web
-Aplicaciones backend
+- Servidores web
+- Aplicaciones backend
 Herramientas de línea de comandos
-APIs
-Y hasta programas de escritorio o apps IoT
+- APIs
+- Y hasta programas de escritorio o apps IoT
 
+---
 
-¿Cómo funciona?
-Node.js está construido sobre el motor V8 de Google Chrome, el mismo que interpreta y ejecuta JavaScript en el navegador.
+## ¿Cómo funciona?
+Está construido sobre el **motor V8 de Google Chrome,** el mismo que interpreta y ejecuta JavaScript en el navegador.
 Pero además, le agrega módulos y herramientas del sistema operativo (archivos, red, procesos, etc.) que no existen en el navegador.
 
 Esto hace posible cosas como:
 
+```JavaScript
 const fs = require('fs');
 fs.writeFileSync('mensaje.txt', '¡Hola desde Node.js!');
+```
 
 Este código crea un archivo en tu computadora, algo imposible desde un navegador.
 
+---
 
-Arquitectura y características principales
-| Característica                   | Explicación                                                                                              |
-| -------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| 🧩 **Basado en módulos**         | Puedes importar y reutilizar código fácilmente (`require` o `import`).                                   |
-| ⚙️ **Asíncrono y no bloqueante** | Node usa un solo hilo, pero maneja muchas tareas a la vez con un sistema basado en eventos (Event Loop). |
-| 🚀 **Rápido y eficiente**        | Gracias al motor V8 y su diseño orientado a I/O asíncrono.                                               |
-| 🌐 **Ideal para servidores**     | Permite crear servidores web muy ligeros y escalables.                                                   |
-| 📦 **Integrado con npm**         | Viene con el gestor de paquetes npm, que te da acceso a millones de librerías.                           |
+## Arquitectura y características principales
+| Característica                | Explicación                                                                                              |
+| ------------------------------| -------------------------------------------------------------------------------------------------------- |
+| **Basado en módulos**         | Puedes importar y reutilizar código fácilmente (`require` o `import`).                                   |
+| **Asíncrono y no bloqueante** | Node usa un solo hilo, pero maneja muchas tareas a la vez con un sistema basado en eventos (Event Loop). |
+| **Rápido y eficiente**        | Gracias al motor V8 y su diseño orientado a I/O asíncrono.                                               |
+| **Ideal para servidores**     | Permite crear servidores web muy ligeros y escalables.                                                   |
+| **Integrado con npm**         | Viene con el gestor de paquetes npm, que te da acceso a millones de librerías.                           |
 
+---
 
-Ejemplo rápido: servidor básico en Node.js
-
+## Ejemplo práctico: servidor básico en Node.js
 Crea un archivo llamado server.js:
 
+```JavaScript
 const http = require('http');
 
 const server = http.createServer((req, res) => {
@@ -47,44 +56,53 @@ const server = http.createServer((req, res) => {
 server.listen(3000, () => {
   console.log('Servidor ejecutándose en http://localhost:3000');
 });
+```
 
 Ejecuta:
+```
 node server.js
+```
 
-Abre tu navegador en http://localhost:3000
+Abre tu navegador en `http://localhost:3000`
 Y verás el mensaje:
-¡Hola desde mi primer servidor Node.js!
+**¡Hola desde mi primer servidor Node.js!**
 
-¿Para qué se usa Node.js?
+---
+
+## ¿Para qué se usa Node.js?
 Uso	Ejemplo
-🌐 APIs y backend web	Express, NestJS, Fastify
-⚡ Aplicaciones en tiempo real	Chats, juegos, notificaciones (con Socket.IO)
-💻 Herramientas de desarrollo	Webpack, ESLint, npm
-🤖 Bots y automatización	Bots de Discord, Telegram, etc.
-📱 Apps multiplataforma	Con frameworks como Electron o React Native
+- APIs y backend web	Express, NestJS, Fastify
+- Aplicaciones en tiempo real	Chats, juegos, notificaciones (con Socket.IO)
+- Herramientas de desarrollo	Webpack, ESLint, npm
+- Bots y automatización	Bots de Discord, Telegram, etc.
+- Apps multiplataforma	Con frameworks como Electron o React Native
 
+---
 
-Ventajas
-Usa el mismo lenguaje (JavaScript) en frontend y backend.
-Muy rápido para aplicaciones que manejan muchas conexiones.
-Gran comunidad y soporte.
-npm te da acceso a millones de paquetes.
+## Ventajas
+- Usa el mismo lenguaje (JavaScript) en frontend y backend.
+- Muy rápido para aplicaciones que manejan muchas conexiones.
+- Gran comunidad y soporte.
+-npm te da acceso a millones de paquetes.
 
+---
 
-Desventajas
-No es ideal para tareas que requieren mucho procesamiento (como cálculos pesados).
-Su asincronía puede ser difícil al principio para programadores nuevos.
+## Desventajas
+- No es ideal para tareas que requieren mucho procesamiento (como cálculos pesados).
+- Su asincronía puede ser difícil al principio para programadores nuevos.
 
+---
 
-¿Qué es el Event Loop?
+## ¿Qué es el Event Loop?
 El Event Loop (bucle de eventos) es el mecanismo interno de Node.js que permite ejecutar muchas tareas al mismo tiempo, sin bloquear el programa, aunque solo use un único hilo (thread).
 
 En palabras simples:
 Mientras Node.js hace una tarea lenta (como leer un archivo o consultar una base de datos), no se queda esperando, sigue ejecutando otras cosas.
 Cuando la tarea termina, el Event Loop recibe el resultado y lo procesa.
 
+**Ejemplo básico**
 
-Ejemplo básico
+```JavaScript
 console.log("Inicio");
 
 setTimeout(() => {
@@ -92,6 +110,7 @@ setTimeout(() => {
 }, 2000);
 
 console.log("Fin");
+```
 
 Salida en consola:
 
