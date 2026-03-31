@@ -184,7 +184,7 @@ Resultado	Flujo rápido y sin bloqueos
 
 Este diagrama muestra cómo funciona el Event Loop en Node.js, que es el corazón de su sistema asíncrono. Vamos parte por parte 👇
 
-🧱 1. Call Stack (Pila de llamadas)
+## 1. Call Stack (Pila de llamadas)
 
 Aquí se ejecuta el código principal de JavaScript, de arriba hacia abajo.
 Cada vez que llamas una función, se “apila” aquí.
@@ -192,20 +192,20 @@ Cuando termina, se “desapila”.
 
 🧩 Si algo toma mucho tiempo (como una petición HTTP), se delega fuera del stack para no bloquearlo.
 
-⚙️ 2. Event Table (Tabla de eventos)
+## 2. Event Table (Tabla de eventos)
 
 Cuando hay tareas que tardan (por ejemplo, setTimeout, lecturas de archivos o consultas a una API),
 Node.js las manda a esta “mesa de trabajo”.
 
 Aquí los eventos esperan a que el sistema operativo los complete.
 
-🕒 3. Callback Queue (Cola de callbacks)
+## 3. Callback Queue (Cola de callbacks)
 
 Una vez que una tarea asíncrona termina, su función callback pasa a esta cola.
 
 Pero aún no se ejecuta, solo espera su turno.
 
-🔁 4. Event Loop
+## 4. Event Loop
 
 El Event Loop es el encargado de revisar constantemente:
 
