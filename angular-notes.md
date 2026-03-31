@@ -41,11 +41,11 @@ Node.js oficial + NVM al mismo tiempo = choques y confusión.
 
 2. **Instalar una versión específica de Node.js**
    - `nvm install <versión>`
-      - **Ejemplo:** *nvm install 22.19.0*
+   - **Ejemplo:** *nvm install 22.19.0*
 
 3. **Activar (usar) una versión instalada**
    - `nvm use <versión>`
-      - *Ejemplo: nvm use 22.19.0*
+   - **Ejemplo:** *nvm use 22.19.0*
 
 4. **Ver la versión activa de Node.js y npm**
    - `node -v` *# Versión de Node.js*
@@ -53,15 +53,15 @@ Node.js oficial + NVM al mismo tiempo = choques y confusión.
 
 5. **Listar versiones instaladas en tu máquina**
    - `nvm list`
-      - **IMPORTANTE:** *La versión activa tendrá un "" al lado.*
+   - **IMPORTANTE:** *La versión activa tendrá un "" al lado.*
 
 6. **Establecer una versión por defecto**
    - `nvm alias default <versión>`
-      - **Ejemplo:** *nvm alias default 22.19.0*
+   - **Ejemplo:** *nvm alias default 22.19.0*
    
 7. **Desinstalar una versión**
    - `nvm uninstall <versión>`
-      - **Ejemplo:** *nvm uninstall 18.17.0*
+   - **Ejemplo:** *nvm uninstall 18.17.0*
 
 **TIPS:**
   - Tras un nvm use, cierra y vuelve a abrir la terminal para que tome efecto.
@@ -71,27 +71,27 @@ Node.js oficial + NVM al mismo tiempo = choques y confusión.
 
 ## ¿CÓMO INSTALAR ANGULAR PARA WINDOWS?
 1. **Verifica que tienes *Node.js* y *npm* en la terminal (CMD, POWERSHELL o la de VS Code), escribe:** 
-   `node -v`
-   `npm -v`
-   Si te aparece la versión de Node (ej. v20.x.x) y la de npm (ej. 10.x.x), estás listo.
+   - `node -v`
+   - `npm -v`
+   - Si te aparece la versión de Node (ej. v20.x.x) y la de npm (ej. 10.x.x), estás listo.
 
 2. **Instalar *Angular CLI* (herramienta de interfaz de línea de comandos)**
-   `npm install -g @angular/cli`
-    **NOTA:**
+   - `npm install -g @angular/cli`
+   - **NOTA:**
       - -g significa que se instala globalmente, para que lo uses en cualquier proyecto.
       - Esto instalará el comando ng (el que se usa para trabajar con Angular).
 
 3. **Para comprobar que se instaló bien:**
-   `ng version`
+   - `ng version`
 
 ---
 
 ## ¿CÓMO CREAR UN PROYECTO DESDE CERO EN ANGULAR PARA WINDOWS?
 1. **Crear un nuevo proyecto**
     - **Ve a la carpeta donde quieras tu proyecto, por ejemplo:**
-        - cd C:\Users\Dell\Documents
+      - cd C:\Users\Dell\Documents
     - **Crea el proyecto**
-	   `ng new nombre-del-proyecto`
+	   - `ng new nombre-del-proyecto`
    - **El CLI te preguntará**
         - Which stylesheet format would you like to use? → **SCSS**
         - Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? → **Yes**
@@ -103,8 +103,8 @@ Node.js oficial + NVM al mismo tiempo = choques y confusión.
    - cd nombre-del-proyecto
 
 3. **Levantar el servidor de desarrollo**
-   `ng serve -o`
-   Esto abre en tu navegador http://localhost:4200/ con tu app corriendo.
+   - `ng serve -o`
+   - Esto abre en tu navegador `http://localhost:4200/` con tu app corriendo.
       
       **NOTA:**
       - **ng serve:** Inicia el servidor, tú abres el navegador.
@@ -119,7 +119,7 @@ Node.js oficial + NVM al mismo tiempo = choques y confusión.
 
 2. **Borra la carpeta del proyecto**
    - **En Windows**
-     `rmdir /s /q nombre-del-pryecto`
+     - `rmdir /s /q nombre-del-pryecto`
      (borra toda la carpeta y su contenido sin pedir confirmación).
 
       **NOTA:** 
@@ -132,22 +132,22 @@ Node.js oficial + NVM al mismo tiempo = choques y confusión.
 
 ## COMANDOS BÁSICOS DE NPM
 - **Ver versión de npm:**
-  `npm -v`
+  - `npm -v`
 
 - **Inicializar un proyecto (crear package.json):**
-  `npm init -y`
+  - `npm init -y`
 
 - **Listar paquetes instalados:**
-  `npm list`
+  - `npm list`
 
 - **Instalar un paquete:**
-  `npm install <paquete>`
+  - `npm install <paquete>`
 
 - **Instalar un paquete global (para usarlo en todo el sistema):**
-  `npm install -g <paquete>`
+  - `npm install -g <paquete>`
 
 - **Desinstalar un paquete:**
-  `npm uninstall <paquete>`
+  - `npm uninstall <paquete>`
 
 - **Actualizar un paquete:**
-  `npm update <paquete>`
+  - `npm update <paquete>`
