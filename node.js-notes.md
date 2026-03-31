@@ -194,7 +194,7 @@ Gracias al Event Loop:
 
 ---
 
-## Diagrama del funcionamiento de Even Loop en Node.js
+## Diagrama del funcionamiento del Event Loop en Node.js
 
 <div align="center">
   <img src="/imgs/even-loop.png" width="600" alt="Even Loop" />
