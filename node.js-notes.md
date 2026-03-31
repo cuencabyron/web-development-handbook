@@ -10,7 +10,7 @@ Con Node.js, ahora puedes usar JavaScript para crear:
 
 - Servidores web
 - Aplicaciones backend
-Herramientas de línea de comandos
+- Herramientas de línea de comandos
 - APIs
 - Y hasta programas de escritorio o apps IoT
 
@@ -99,7 +99,7 @@ Y verás el mensaje:
 ## ¿Qué es el Event Loop?
 El **Event Loop** (bucle de eventos) es el **mecanismo interno de Node.js** que permite ejecutar muchas tareas al mismo tiempo, **sin bloquear el programa,** aunque solo use **un único hilo (thread).**
 
-En palabras simples:
+**En palabras simples:**
 Mientras Node.js hace una tarea lenta (como leer un archivo o consultar una base de datos), **no se queda esperando**, sigue ejecutando otras cosas.
 Cuando la tarea termina, **el Event Loop** recibe el resultado y lo procesa.
 
@@ -148,7 +148,7 @@ entonces la **manda a otro lugar (la cola de tareas) y sigue adelante con el res
     Constantemente pregunta:
 
     “¿El Call Stack está vacío?”
-    
+
     Si sí, saca el siguiente callback de la cola y lo ejecuta.
 
 ---
@@ -173,7 +173,7 @@ fs.readFile("archivo.txt", "utf8", (err, data) => {
 console.log("Fin");
 ```
 
-## Salida:
+**Salida:**
 ```
 Inicio
 Fin
@@ -194,7 +194,7 @@ Gracias al Event Loop:
 
 ---
 
-## Diagrama del funcionamiento de Even Loop en Node,js
+## Diagrama del funcionamiento de Even Loop en Node.js
 
 <div align="center">
   <img src="/imgs/even-loop.png" width="600" alt="Even Loop" />
