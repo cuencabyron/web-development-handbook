@@ -43,7 +43,7 @@ Este código crea un archivo en tu computadora, algo imposible desde un navegado
 ---
 
 ## Ejemplo práctico: servidor básico en Node.js
-Crea un archivo llamado `server.js`:
+**Crea un archivo llamado `server.js`:**
 
 ```JavaScript
 const http = require('http');
@@ -58,13 +58,15 @@ server.listen(3000, () => {
 });
 ```
 
-Ejecuta:
+**Ejecuta:**
 ```
 node server.js
 ```
 
 Abre tu navegador en `http://localhost:3000`
+
 Y verás el mensaje:
+
 **¡Hola desde mi primer servidor Node.js!**
 
 ---
@@ -128,18 +130,25 @@ entonces la **manda a otro lugar (la cola de tareas) y sigue adelante con el res
 
 ## ¿Cómo funciona el flujo internamente?
 1. **Call Stack (pila de llamadas):**
+
     Donde Node ejecuta el código JavaScript línea por línea.
 
 2. **Event Table:**
+
     Donde se registran las tareas asíncronas (como timers, lecturas de archivos, peticiones HTTP, etc.).
 
 3. **Callback Queue (cola de espera):**
+
     Cuando una tarea asíncrona termina, su “callback” se mueve aquí esperando ser ejecutado.
 
 4. **Event Loop:**
+
     Es el vigilante.
+
     Constantemente pregunta:
+
     “¿El Call Stack está vacío?”
+    
     Si sí, saca el siguiente callback de la cola y lo ejecuta.
 
 ---
@@ -182,17 +191,6 @@ Gracias al Event Loop:
 - Node.js no se bloquea con tareas lentas.
 - Puede atender miles de conexiones simultáneas con un solo hilo.
 - Es ideal para servidores web, APIs y aplicaciones en tiempo real (chats, sockets, etc.).
-
----
-
-## En resumen
-| Componente         | Función                               |
-| ------------------ | ------------------------------------- |
-| **Call Stack**     | Ejecuta el código principal           |
-| **Event Table**    | Guarda tareas asíncronas              |
-| **Callback Queue** | Espera a que el Stack esté libre      |
-| **Event Loop**     | Mueve las tareas completadas al Stack |
-| **Resultado**      | Flujo rápido y sin bloqueos           |
 
 ---
 
@@ -249,3 +247,14 @@ console.log('3');
 3
 2
 ```
+
+---
+
+## En resumen
+| Componente         | Función                               |
+| ------------------ | ------------------------------------- |
+| **Call Stack**     | Ejecuta el código principal           |
+| **Event Table**    | Guarda tareas asíncronas              |
+| **Callback Queue** | Espera a que el Stack esté libre      |
+| **Event Loop**     | Mueve las tareas completadas al Stack |
+| **Resultado**      | Flujo rápido y sin bloqueos           |
