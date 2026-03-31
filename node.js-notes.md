@@ -43,7 +43,7 @@ Este código crea un archivo en tu computadora, algo imposible desde un navegado
 ---
 
 ## Ejemplo práctico: servidor básico en Node.js
-Crea un archivo llamado server.js:
+Crea un archivo llamado `server.js`:
 
 ```JavaScript
 const http = require('http');
@@ -89,20 +89,19 @@ Y verás el mensaje:
 ---
 
 ## Desventajas
-- No es ideal para tareas que requieren mucho procesamiento (como cálculos pesados).
+- No es ideal para tareas que requieren **mucho procesamiento** (como cálculos pesados).
 - Su asincronía puede ser difícil al principio para programadores nuevos.
 
 ---
 
 ## ¿Qué es el Event Loop?
-El Event Loop (bucle de eventos) es el mecanismo interno de Node.js que permite ejecutar muchas tareas al mismo tiempo, sin bloquear el programa, aunque solo use un único hilo (thread).
+El **Event Loop** (bucle de eventos) es el **mecanismo interno de Node.js** que permite ejecutar muchas tareas al mismo tiempo, **sin bloquear el programa,** aunque solo use **un único hilo (thread).**
 
 En palabras simples:
-Mientras Node.js hace una tarea lenta (como leer un archivo o consultar una base de datos), no se queda esperando, sigue ejecutando otras cosas.
-Cuando la tarea termina, el Event Loop recibe el resultado y lo procesa.
+Mientras Node.js hace una tarea lenta (como leer un archivo o consultar una base de datos), **no se queda esperando**, sigue ejecutando otras cosas.
+Cuando la tarea termina, **el Event Loop** recibe el resultado y lo procesa.
 
 **Ejemplo básico**
-
 ```JavaScript
 console.log("Inicio");
 
@@ -113,29 +112,26 @@ setTimeout(() => {
 console.log("Fin");
 ```
 
-Salida en consola:
-
+**Salida en consola:**
 Inicio
 Fin
 Tarea con retardo
 
 ¿Por qué “Tarea con retardo” se ejecuta al final, si aparece antes en el código?
 
-Porque el Event Loop detecta que setTimeout() es una tarea asíncrona (tardará 2 segundos),
-entonces la manda a otro lugar (la cola de tareas) y sigue adelante con el resto del programa.
+Porque el **Event Loop** detecta que `setTimeout()` es una tarea asíncrona (tardará 2 segundos),
+entonces la **manda a otro lugar (la cola de tareas) y sigue adelante con el resto del programa.**
 
+---
 
-¿Cómo funciona el flujo internamente?
-1. Call Stack (pila de llamadas):
+## ¿Cómo funciona el flujo internamente?
+1. **Call Stack (pila de llamadas):**
     Donde Node ejecuta el código JavaScript línea por línea.
-
-2. Event Table:
+2. **Event Table:**
     Donde se registran las tareas asíncronas (como timers, lecturas de archivos, peticiones HTTP, etc.).
-
-3. Callback Queue (cola de espera):
+3. **Callback Queue (cola de espera):**
     Cuando una tarea asíncrona termina, su “callback” se mueve aquí esperando ser ejecutado.
-
-4. Event Loop:
+4. **Event Loop:**
     Es el vigilante.
     Constantemente pregunta:
     “¿El Call Stack está vacío?”
@@ -144,7 +140,9 @@ entonces la manda a otro lugar (la cola de tareas) y sigue adelante con el resto
 
 🔁 Representación simple:
 Código principal → Event Table → Callback Queue → Event Loop → Call Stack → Resultado
-🔧 Ejemplo con tareas reales
+
+**Ejemplo con tareas reales**
+```JavaScript
 const fs = require("fs");
 
 console.log("Inicio");
@@ -154,6 +152,7 @@ fs.readFile("archivo.txt", "utf8", (err, data) => {
 });
 
 console.log("Fin");
+```
 
 📤 Salida:
 
@@ -183,40 +182,35 @@ Event Loop	Mueve las tareas completadas al Stack
 Resultado	Flujo rápido y sin bloqueos
 
 
-Este diagrama muestra cómo funciona el Event Loop en Node.js, que es el corazón de su sistema asíncrono. Vamos parte por parte 👇
+Este diagrama muestra cómo funciona el Event Loop en Node.js, que es el corazón de su sistema asíncrono. 
 
 ## 1. Call Stack (Pila de llamadas)
-
-Aquí se ejecuta el código principal de JavaScript, de arriba hacia abajo.
-Cada vez que llamas una función, se “apila” aquí.
-Cuando termina, se “desapila”.
-
-🧩 Si algo toma mucho tiempo (como una petición HTTP), se delega fuera del stack para no bloquearlo.
+Aquí se ejecuta el código principal de JavaScript, **de arriba hacia abajo.** Cada vez que llamas una función, se “apila” aquí. Cuando termina, se “desapila”.
+```
+Si algo toma mucho tiempo (como una petición HTTP), se delega fuera del stack para no bloquearlo.
+```
 
 ## 2. Event Table (Tabla de eventos)
-
-Cuando hay tareas que tardan (por ejemplo, setTimeout, lecturas de archivos o consultas a una API),
-Node.js las manda a esta “mesa de trabajo”.
-
+Cuando hay tareas que tardan (por ejemplo, `setTimeout`, lecturas de archivos o consultas a una API), Node.js las manda a esta “mesa de trabajo”.
+```
 Aquí los eventos esperan a que el sistema operativo los complete.
+```
 
 ## 3. Callback Queue (Cola de callbacks)
-
-Una vez que una tarea asíncrona termina, su función callback pasa a esta cola.
-
+Una vez que una tarea asíncrona termina, su función callback **pasa a esta cola.**
+```
 Pero aún no se ejecuta, solo espera su turno.
+```
 
 ## 4. Event Loop
-
-El Event Loop es el encargado de revisar constantemente:
-
+El *Event Loop* es el encargado de revisar constantemente:
+```
 “¿Está libre el Call Stack?”
+```
+- Si sí, toma el primer callback de la Callback Queue y lo ejecuta.
+- Si no, espera hasta que el stack quede vacío.
 
-Si sí, toma el primer callback de la Callback Queue y lo ejecuta.
-
-Si no, espera hasta que el stack quede vacío.
-
-Así Node.js puede hacer muchas cosas al mismo tiempo sin bloquear el programa 💡
+Así Node.js puede hacer muchas cosas al mismo tiempo sin bloquear el programa 
 
 ⚡ Ejemplo rápido:
 console.log('1');
