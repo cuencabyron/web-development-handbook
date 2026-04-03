@@ -118,7 +118,7 @@
   - [Uso práctico](robots.txt-notes.md#uso-práctico)
   - [En resumen](robots.txt-notes.md#en-resumen) 
 
-- [ Glosario SSH](ssh-glossary.md)
+- [🔑 Glosario SSH](ssh-glossary.md)
   - [Conexión y Navegación](ssh-glossary.md#conexión-y-navegación)
   - [Node / npm / Build](ssh-glossary.md#node--npm--build) 
   - [PM2 (Backend en Producción)](ssh-glossary.md#pm2-backend-en-producción)
