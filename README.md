@@ -71,7 +71,10 @@
   - [¿Cómo funciona?](scrum-notes.md#cómo-funciona)
   - [Roles principales](scrum-notes.md#roles-principales)
   - [Eventos clave](scrum-notes.md#eventos-clave)
+  - [¿Qué es un Sprint?](scrum-notes.md#qué-es-un-sprint)
   - [Ejemplo práctico](scrum-notes.md#ejemplo-práctico)
+  - [Sprint Planning](scrum-notes.md#sprint-planning)
+  - [Ejemplo de Historia de Usuario (Ticket Scrum)](scrum-notes.md#ejemplo-de-historia-de-usuario-ticket-scrum)
 
 - [📋 KANBAN](kanban-notes.md)
   - [¿Qué es?](kanban-notes.md#qué-es)
