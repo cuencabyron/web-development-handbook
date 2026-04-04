@@ -2,57 +2,54 @@
 
 | Logo                                    | Nombre y Versión                                               | Publicador             |
 | :---:                                   |     :---:                                                      |   :---:                |
-| ![alt text](/imgs/angular.png)          | Angular Language Service 20.2.2                                | Angular                |
-|                                         |                                                                |                        |
-| ![alt text](/imgs/codesnap.png)         | CodeSnap 1.3.4                                                 | adpyke                 |
-|                                         |                                                                |                        |
-|                                         |                                                                |                        |
-| ![alt text](imgs/cyberpunk.png)         | Cyberpunk 1.2.14                                               | Max                    |
-|                                         |                                                                |                        |
-|                                         |                                                                |                        |
-| ![alt text](imgs/dracula.png)           | Dracula Theme Official 2.25.1                                  | Dracula Theme          |
-|                                         |                                                                |                        |
-|                                         |                                                                |                        |
-| ![alt text](imgs/eslint.png)            | ESLint 3.0.16                                                  | Microsoft              |
-|                                         |                                                                |                        |
-| ![alt text](imgs/fluent-icons.png)      | Fluent Icons 0.0.16                                            | Miguel Solorio         |
-| ![alt text](imgs/gitleans.png)          | GitLens — Git supercharged 17.6.1                              | GitKraken              |
-|                                         |                                                                |                        |
-| ![alt text](imgs/imgprew.png)           | Image preview 0.32.2	                                       | Kiss Tamás             | 
-| ![alt text](imgs/jses6.png)             | JavaScript (ES6) code snippets 1.8.0                           | charalampos karypidis  |
-| ![alt text](imgs/jupyter.png)           | Jupyter 2025.9.0                                               | Microsoft              |
-| ![alt text](imgs/jupyter.png)           | Jupyter Cell Tags 0.1.9	                                       | Microsoft              | 
-| ![alt text](imgs/jupyter.png)           | Jupyter Keymap 1.1.2                                           | Microsoft              |
-| ![alt text](imgs/jupyter-notebook.png)  | Jupyter Notebook Renderers 1.3.0                               | Microsoft              |
-| ![alt text](imgs/jupyter.png)           | Jupyter Slide Show 0.1.6                                       | Microsoft              |
-|                                         |                                                                |                        |
-|                                         |                                                                |                        |
-| ![alt text](imgs/live-server.png)       | Live Server 5.7.9                                              | Ritwick Dey            |
-| ![alt text](imgs/markdown.png)          | Markdown Preview Enhanced 0.8.16                               | Yiyi Wang              |
-| ![alt text](imgs/mit.png)               | Material Icon Theme 5.27.0                                     | Philipp Kief           |
-|                                         |                                                                |                        |
-| ![alt text](imgs/monokai.png)           | Monokai Pro 2.0.8	                                           | monokai                |
-| ![alt text](imgs/nightowl.png)          | Night Owl 2.1.1	                                               | sarah.drasner          |              
-| ![alt text](imgs/prettier.png)          | Prettier - Code formatter 11.0.0	                           | Prettier               |                        
-| ![alt text](imgs/prettify.png)          | Prettify JSON 0.0.3	                                           | Mohsen Azimi           |                        
-|                                         |                                                                |                        | 
-| ![alt text](imgs/python.png)            | Pylance 2025.8.3	                                           | Microsoft              |                        
-| ![alt text](imgs/python.png)            | Python 2025.16.0                                               | Microsoft              |
-| ![alt text](imgs/python.png)            | Python Debugger 2025.14.0	                                   | Microsoft              |
-| ![alt text](imgs/python.png)	          | Python Environments 1.10.0	                                   | Microsoft              |
-|                                         |                                                                |                        |
-| ![alt text](imgs/sonarqube.png)         | SonarQube for IDE 4.31.0	                                   | SonarSource            |                        
-| ![alt text](imgs/spanish.png)           | Spanish Language Pack for Visual Studio Code 1.105.2025100809  | Microsoft              |
-| ![alt text](imgs/symbols.png)           | Symbols 0.0.24	                                               | Miguel Solorio         |
-|                                         |                                                                |                        |
-|                                         |                                                                |                        |
-| ![alt text](imgs/vibrancy.png)          | Vibrancy Continued 1.1.60                                      | illixion               |                        
-| ![alt text](imgs/vscode-icons.png)      | vscode-icons 12.14.0	                                       | VSCode Icons Team      |
-|                                         |                                                                |                        |
-|                                         |                                                                |                        |
-|                                         |                                                                |                        |  
-
-
-
-
-
+| ![alt text](/imgs/angular.png)          | Angular Language Service                                       | Angular                |
+| ![alt text](/imgs/better-coments.png)   |                                                                |                        |
+| ![alt text](image.png)                  |                                                                |                        |
+| ![alt text](image-1.png)                |                                                                |                        |
+| ![alt text](/imgs/codesnap.png)         | CodeSnap                                                       | adpyke                 |
+| ![alt text](image-2.png)                |                                                                |                        |
+| ![alt text](image-3.png)                |                                                                |                        |
+| ![alt text](image-4.png)                |                                                                |                        |
+| ![alt text](imgs/cyberpunk.png)         | Cyberpunk                                                      | Max                    |
+| ![alt text](image-5.png)                |                                                                |                        |
+| ![alt text](imgs/dracula.png)           | Dracula Theme Official                                         | Dracula Theme          |
+| ![alt text](image-7.png)                |                                                                |                        |
+| ![alt text](image-6.png)                |                                                                |                        |
+| ![alt text](imgs/eslint.png)            | ESLint                                                         | Microsoft              |
+| ![alt text](image-18.png)               |                                                                |                        |
+| ![alt text](imgs/fluent-icons.png)      | Fluent Icons                                                   | Miguel Solorio         |
+| ![alt text](imgs/gitleans.png)          | GitLens — Git supercharged                                     | GitKraken              |
+| ![alt text](image-15.png)               |                                                                |                        |
+| ![alt text](imgs/imgprew.png)           | Image preview        	                                       | Kiss Tamás             | 
+| ![alt text](imgs/jses6.png)             | JavaScript (ES6) code snippets                                 | charalampos karypidis  |
+| ![alt text](imgs/jupyter.png)           | Jupyter                                                        | Microsoft              |
+| ![alt text](imgs/jupyter.png)           | Jupyter Cell Tags                                              | Microsoft              | 
+| ![alt text](imgs/jupyter.png)           | Jupyter Keymap                                                 | Microsoft              |
+| ![alt text](imgs/jupyter-notebook.png)  | Jupyter Notebook Renderers                                     | Microsoft              |
+| ![alt text](imgs/jupyter.png)           | Jupyter Slide Show                                             | Microsoft              |
+| ![alt text](image-17.png)               |                                                                |                        |
+| ![alt text](image-16.png)               |                                                                |                        |
+| ![alt text](imgs/live-server.png)       | Live Server                                                    | Ritwick Dey            |
+| ![alt text](imgs/markdown.png)          | Markdown Preview Enhanced                                      | Yiyi Wang              |
+| ![alt text](imgs/mit.png)               | Material Icon Theme                                            | Philipp Kief           |
+| ![alt text](image-13.png)               |                                                                |                        |
+| ![alt text](imgs/monokai.png)           | Monokai Pro      	                                           | monokai                |
+| ![alt text](imgs/nightowl.png)          | Night Owl    	                                               | sarah.drasner          |              
+| ![alt text](imgs/prettier.png)          | Prettier - Code formatter       	                           | Prettier               |                        
+| ![alt text](imgs/prettify.png)          | Prettify JSON    	                                           | Mohsen Azimi           |                        
+| ![alt text](image-12.png)               |                                                                |                        | 
+| ![alt text](imgs/python.png)            | Pylance         	                                           | Microsoft              |                        
+| ![alt text](imgs/python.png)            | Python                                                         | Microsoft              |
+| ![alt text](imgs/python.png)            | Python Debugger         	                                   | Microsoft              |
+| ![alt text](imgs/python.png)	          | Python Environments      	                                   | Microsoft              |
+| ![alt text](image-11.png)               |                                                                |                        |
+| ![alt text](imgs/sonarqube.png)         | SonarQube for IDE        	                                   | SonarSource            |                        
+| ![alt text](imgs/spanish.png)           | Spanish Language Pack for Visual Studio Code                   | Microsoft              |
+| ![alt text](imgs/symbols.png)           | Symbols                                                        | Miguel Solorio         |
+| ![alt text](image-9.png)                |                                                                |                        |
+| ![alt text](image-8.png)                |                                                                |                        |
+| ![alt text](imgs/vibrancy.png)          | Vibrancy Continued                                             | illixion               |                        
+| ![alt text](imgs/vscode-icons.png)      | VSCode Icons Team                                              |                        |
+| ![alt text](image-10.png)               |                                                                |                        |
+| ![alt text](image-20.png)               |                                                                |                        |
+| ![alt text](image-21.png)               |                                                                |                        |  
