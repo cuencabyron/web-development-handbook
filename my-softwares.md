@@ -10,7 +10,7 @@
 | ![alt text](/imgs/git.png)              | Git                     | https://git-scm.com/downloads                          |
 | ![alt text](/imgs/figma.png)            | Figma                   | https://www.figma.com/es-la/downloads                  |
 | ![alt text](/imgs/drawio.png)           | draw.io                 | https://www.drawio.com                                 |
-| ![alt text](/imgs/wamp.png)             | WampServer              |                                                        |
+| ![alt text](/imgs/wamp.png)             | WampServer              | [Oficial](https://www.wampserver.com/en/ ) <br>  [Paquetes VC](https://wampserver.aviatechno.net/) |
 | ![alt text](/imgs/java.png)             | Java Development Kit    | https://www.oracle.com/mx/java/technologies/downloads  |
 | ![alt text](/imgs/python1.png)          | Python                  | https://www.python.org/downloads                       |
 | ![alt text](/imgs/angular1.png)         | Angular CLI             |                                                        |
