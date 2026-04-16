@@ -69,7 +69,7 @@ Node.js oficial + NVM al mismo tiempo = choques y confusión.
    ```Bash
    nvm list
    ```
-   - **IMPORTANTE:** *La versión activa tendrá un "" al lado.*
+   - **IMPORTANTE:** *La versión activa tendrá un asterisco al lado.*
 
 6. **Establecer una versión por defecto**
    ```Bash
