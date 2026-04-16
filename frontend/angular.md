@@ -117,7 +117,9 @@ Node.js oficial + NVM al mismo tiempo = choques y confusión.
 ## ¿CÓMO CREAR UN PROYECTO DESDE CERO EN ANGULAR PARA WINDOWS?
 1. **Crear un nuevo proyecto**
     - **Ve a la carpeta donde quieras tu proyecto, por ejemplo:**
-      - cd C:\Users\Dell\Documents
+      ```Bash
+      cd C:\Users\Dell\Documents
+      ```
     - **Crea el proyecto**
       ```Bash
       ng new nombre-del-proyecto
