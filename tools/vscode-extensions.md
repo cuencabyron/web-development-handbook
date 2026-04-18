@@ -19,13 +19,12 @@
 | ![alt text](/imgs/drawio-int.png)         | Draw.io Integration             | Henning Dieterichs     |
 | ![alt text](/imgs/drawio-pre.png)         | Draw.io Preview                 | purocean               |
 | ![alt text](/imgs/eslint.png)             | ESLint                          | Microsoft              |
-| ![alt text](/imgs/gh-pull-request.png)    | GitHub Pull Request             | GitHub                 |
 | ![alt text](/imgs/extension-java.png)     | Extension Pack for Java         | Microsoft              |
 | ![alt text](/imgs/fluent-icons.png)       | Fluent Icons                    | Miguel Solorio         |
+| ![alt text](/imgs/gh-pull-request.png)    | GitHub Pull Request             | GitHub                 |
 | ![alt text](/imgs/gitleans.png)           | GitLens — Git supercharged      | GitKraken              |
 | ![alt text](/imgs/gradle-java.png)        | Gradle for Java                 | Microsoft              |
 | ![alt text](/imgs/imgprew.png)            | Image preview        	          | Kiss Tamás             | 
-| ![alt text](/imgs/jses6.png)              | JavaScript (ES6) code snippets  | charalampos karypidis  |
 | ![alt text](/imgs/jupyter.png)            | Jupyter                         | Microsoft              |
 | ![alt text](/imgs/jupyter.png)            | Jupyter Cell Tags               | Microsoft              | 
 | ![alt text](/imgs/jupyter.png)            | Jupyter Keymap                  | Microsoft              |
@@ -48,6 +47,9 @@
 | ![alt text](/imgs/python.png)             | Python                          | Microsoft              |
 | ![alt text](/imgs/python.png)             | Python Debugger         	      | Microsoft              |
 | ![alt text](/imgs/python.png)	            | Python Environments      	      | Microsoft              |
+| ![alt text](/imgs/remote-ssh.png)         | Remote - SSH                    | Microsoft              |
+| ![alt text](/imgs/remote-ssh.png)         | Remote - SSH: Editing Configuration Files | Microsoft    |
+| ![alt text](/imgs/remote-explorer.png)    | Remote Explorer                 | Microsoft              |
 | ![alt text](/imgs/rest-client.png)        | REST Client                     | Huachao Mao            |
 | ![alt text](/imgs/sonarqube.png)          | SonarQube for IDE        	      | SonarSource            |                        
 | ![alt text](/imgs/spanish.png)            | Spanish Language Pack for Visual Studio Code | Microsoft |
