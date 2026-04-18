@@ -1,5 +1,7 @@
 <h1 align="center">MIS EXTENSIONES INSTALADAS EN VISUAL STUDIO CODE</h1>
 
+---
+
 | Logo                                      | Nombre y Versión                | Publicador             |
 | :---:                                     |     :---:                       |   :---:                |
 | ![alt text](/imgs/angular.png)            | Angular Language Service        | Angular                |
@@ -9,13 +11,15 @@
 | ![alt text](/imgs/codesnap.png)           | CodeSnap                        | adpyke                 |
 | ![alt text](/imgs/codex.png)              | Codex – OpenAI’s coding agent   | Open AI                |
 | ![alt text](/imgs/container-tools.png)    | Container Tools                 | Microsoft              |
-| ![alt text](/imgs/contenedores.png)       | Contenedores de desarrollo      | Microsoft              |
 | ![alt text](/imgs/cyberpunk.png)          | Cyberpunk                       | Max                    |
 | ![alt text](/imgs/debugger-java.png)      | Debugger for Java               | Microsoft              |
+| ![alt text](/imgs/contenedores.png)       | Dev Containers                  | Microsoft              |
+| ![alt text](/imgs/docker.png)             | Docker                          | Microsoft              |
 | ![alt text](/imgs/dracula.png)            | Dracula Theme Official          | Dracula Theme          |
 | ![alt text](/imgs/drawio-int.png)         | Draw.io Integration             | Henning Dieterichs     |
 | ![alt text](/imgs/drawio-pre.png)         | Draw.io Preview                 | purocean               |
 | ![alt text](/imgs/eslint.png)             | ESLint                          | Microsoft              |
+| ![alt text](/imgs/gh-pull-request.png)    | GitHub Pull Request             | GitHub                 |
 | ![alt text](/imgs/extension-java.png)     | Extension Pack for Java         | Microsoft              |
 | ![alt text](/imgs/fluent-icons.png)       | Fluent Icons                    | Miguel Solorio         |
 | ![alt text](/imgs/gitleans.png)           | GitLens — Git supercharged      | GitKraken              |
@@ -30,6 +34,7 @@
 | ![alt text](/imgs/lsj.png)                | Language Support for Java(TM) by Red Hat  | Red Hat      |
 | ![alt text](/imgs/live-sass.png)          | Live Sass Compiler              | Gleen Marks            |
 | ![alt text](/imgs/live-server.png)        | Live Server                     | Ritwick Dey            |
+| ![alt text](/imgs/live-share.png)         | Live Share                      | Microsoft              |                
 | ![alt text](/imgs/markdown.png)           | Markdown Preview Enhanced       | Yiyi Wang              |
 | ![alt text](/imgs/mit.png)                | Material Icon Theme             | Philipp Kief           |
 | ![alt text](/imgs/maven-java.png)         | Maven for Java                  | Microsoft              |
@@ -48,8 +53,7 @@
 | ![alt text](/imgs/spanish.png)            | Spanish Language Pack for Visual Studio Code | Microsoft |
 | ![alt text](/imgs/symbols.png)            | Symbols                         | Miguel Solorio         |
 | ![alt text](/imgs/test-runner-java.png)   | Test Runner for Java            | Microsoft              |
-| ![alt text](/imgs/todo-tree.png)          | Todo Tree                       | Gruntfuggly            |
-| ![alt text](/imgs/vibrancy.png)           | Vibrancy Continued              | illixion               |                        
+| ![alt text](/imgs/todo-tree.png)          | Todo Tree                       | Gruntfuggly            |                    
 | ![alt text](/imgs/vscode-icons.png)       | vscode-icons                    | VSCode Icons Team      |
 | ![alt text](/imgs/vscode-pokemon.png)     | vscode-pokemon                  | jakobhoeg              |
 | ![alt text](/imgs/w3c-val.png)            | W3C Validation                  | Umoxfo                 |
