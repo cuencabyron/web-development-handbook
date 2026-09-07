@@ -99,3 +99,9 @@
 - [ ] B) 301
 - [ ] C) 404
 - [ ] D) 500
+
+**18.- Which HTTP method is commonly used to create a new resource in a REST API?**
+- [ ] A) GET
+- [ ] B) POST
+- [ ] C) PUT
+- [ ] D) DELETE
