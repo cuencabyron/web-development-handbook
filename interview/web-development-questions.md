@@ -123,3 +123,9 @@
 - [ ] B) .env
 - [ ] C) .css
 - [ ] D) .json
+
+**22.- Which storage is generally cleared when the browser tab/session ends**
+- [ ] A) localStorage
+- [ ] B) sessionStorage
+- [ ] C) Database
+- [ ] D) Cookies always
