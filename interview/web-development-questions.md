@@ -105,3 +105,21 @@
 - [ ] B) POST
 - [ ] C) PUT
 - [ ] D) DELETE
+
+**19. An API returns HTTP status 500. What does it usually mean?**
+- [ ] A) Successful request
+- [ ] B) Client-side error
+- [ ] C) Server-side error
+- [ ] D) Page not found
+
+**20. What is the primary purpose of tokenization?**
+- [ ] A) Increase database size
+- [ ] B) Replace sensitive data with secure tokens
+- [ ] C) Improve internet speed
+- [ ] D) Compress files
+
+**21. Which file is commonly used to store environment variables like API keys and database credentials?**
+- [ ] A) .html
+- [ ] B) .env
+- [ ] C) .css
+- [ ] D) .json
